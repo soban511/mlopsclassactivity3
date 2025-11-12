@@ -50,4 +50,4 @@ Artifacts and Docker builds will appear automatically.
 - [MLOps with GitHub Actions](https://mlops.community/github-actions-for-mlops/)
 - [Continuous Delivery for Machine Learning (CD4ML)](https://martinfowler.com/articles/cd4ml.html)
 
-# Update: Triggered CI workflow by Soban Athar
+# Update: Triggered CI workflow by Soban Athar.

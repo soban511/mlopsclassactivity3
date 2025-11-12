@@ -5,5 +5,5 @@ iris = load_iris()
 data = pd.DataFrame(iris.data, columns=iris.feature_names)
 data['target'] = iris.target
 
-data.to_csv("data/preprocessed.csv", index=False)
+data.to_csv("preprocessed.csv", index=False)
 print("✅ Data preprocessed and saved to data/preprocessed.csv")

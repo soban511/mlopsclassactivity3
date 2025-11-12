@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--version', type=str, required=True)
 args = parser.parse_args()
 
-data = pd.read_csv("data/preprocessed.csv")
+data = pd.read_csv("preprocessed.csv")
 X = data.drop('target', axis=1)
 y = data['target']
 
